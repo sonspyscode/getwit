@@ -1,7 +1,7 @@
 # Getwit
 ## Python Package with Twitetr API v2
 
-Getwit python package adalah library yang terhubung dengan endpoint dengan metode ‘GET’ pada Twitter API v2. Library ini dibangun menggunakan Bahasa pemrograman python. Sejauh ini getwit memiliki 3 module utama yaitu function.py, model.py dan api_secret.py. Selain itu, getwit terhubung di 34 endpoint yang ada di Twitter API v2. Library dijalan melalui sebuah module main.py diluar folder package dan memanggil tiap fungsi(endpoint) yang diinginkan. Sebelum menggunakan library tersebut, pastikan telah melakukan generate key dan token serta mengatur user authentication setting di laman developer portal dari website Twitter Developer. Seluruh endpoint yang ada telah diuji coba menggunakan dua tipe autentikasi, yaitu OAuth1.0 User-contex dan OAuth2.0 App-Only dengan status akses 'elevated'
+Getwit python package adalah library yang terhubung dengan endpoint dengan metode ‘GET’ pada Twitter API v2. Library ini dibangun menggunakan Bahasa pemrograman python. Sejauh ini getwit memiliki 3 module utama yaitu function.py, model.py dan api_secret.py. Selain itu, getwit terhubung di 34 endpoint yang ada di Twitter API v2. Library dijalan melalui sebuah module main.py diluar folder package dan memanggil tiap fungsi(endpoint) yang diinginkan. Sebelum menggunakan library tersebut, pastikan telah melakukan generate key dan token serta mengatur user authentication setting di laman developer portal dari website Twitter Developer. Seluruh endpoint yang ada telah diuji coba menggunakan dua tipe autentikasi, yaitu OAuth1.0 User-contex dan OAuth2.0 App-Only dengan status akses 'elevated'.
 
 ## Features
 ### Tweet
