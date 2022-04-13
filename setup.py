@@ -6,5 +6,5 @@ setup(
    version='0.1',
    description='Library yang terhubung dengan Twitter API v2',
    author='Ahmad Afiq Fitrah, Niken Dwi Wahyu Cahyani, Erwid Mustofa Jadied',
-   install_requires=['requests_oauthlib', 'requests', 'json'],
+   install_requires=['requests_oauthlib', 'requests'],
 )
