@@ -1,7 +1,7 @@
 # Getwit
 ## Python Package with Twitetr API v2
 
-Getwit python package adalah library yang terhubung dengan endpoint dengan metode ‘GET’ pada Twitter API v2. Library ini dibangun menggunakan Bahasa pemrograman python. Sejauh ini getwit memiliki 3 module utama yaitu function.py, model.py dan api_secret.py. Selain itu, getwit terhubung di 34 endpoint yang ada di Twitter API v2. Library dijalan melalui sebuah module main.py diluar folder package dan memanggil tiap fungsi(endpoint) yang diinginkan. Sebelum menggunakan library tersebut, pastikan telah melakukan generate key dan token serta mengatur user authentication setting di laman developer portal dari website Twitter Developer. Seluruh endpoint yang ada telah diuji coba menggunakan dua tipe autentikasi, yaitu OAuth1.0 User-contex dan OAuth2.0 App-Only dengan level akses 'elevated'.
+Getwit adalah program komputer yang terhubung pada endpoint dengan metode ‘GET’ pada Twitter API v2. Aplikasi ini bertujuan untuk mengakuisisi data user pada aplikasi Twitter untuk keperluan penyidikan forensik digital. Aplikasi ini dilengkapi dengan fitur perhitungan nilai hash MD5 dan SHA256 untuk data yang diakusisi. Library aplikasi dibangun dengan menggunakan bahasa pemrograman python. Getwit memiliki 3 modul utama yaitu function.py, model.py dan api_secret.py. Selain itu, terdapat pula module untuk menampilkan UI dari aplikasi dengan nama window.py. Getwit terhubung pada 32 endpoint yang ada di Twitter API v2. Sebelum menggunakan library tersebut, diperlukan proses generate key dan token, serta pengaturan user authentication di laman developer portal dari Twitter Developer. Seluruh endpoint yang ada, telah diuji coba menggunakan dua tipe autentikasi, yaitu OAuth1.0 User-contex dan OAuth2.0 App-Only dengan level akses ialah 'elevated'.
 
 ## Features
 ### Tweet
@@ -39,15 +39,17 @@ Getwit tersedia direpository github sonspyscode https://github.com/sonspyscode/g
 ```sh
 pip instal getwit
 ```
+atau
+```sh
+git clone https://github.com/sonspyscode/getwit.git’
+```
 ### Get API Key and Tokens
 Sebelum mengimplementasikan getwit, pastikan telah memiliki akun developer pada website Twitter Developer. Setelah itu, generate key dan token yang ada pada projects & apps. Key dan token tersebut disalin dan simpan pada file dengan nama api_secret.api. Perhatikan bahwa status dari aplikasi dan User Autentication Setting mempengaruhi jenis key dan token yang dapat di generate. Untuk detailnya silahkan akses https://developer.twitter.com/en/docs/apps/overview.
 ```sh
+//File api_secret.py
 ACCESS_TOKEN = 'YOUR ACCESS_TOKEN'
 ACCESS_TOKEN_SECRET = 'YOUR ACCESS_TOKEN_SECRET'
 CONSUMER_KEY = 'YOUR CONSUMER_KEY'
 CONSUMER_SECRET = 'YOUR CONSUMER_SECRET'
 BEARER_TOKEN = 'YOUR BEARER_TOKEN'
 ```
-## License
-
-MIT
