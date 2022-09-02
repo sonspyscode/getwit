@@ -1,9 +1,10 @@
 # Getwit
-## Python Package with Twitetr API v2
+## Getwit as an API-based Acquisition Tools for Twitter
 
 Getwit adalah program komputer yang terhubung pada endpoint dengan metode ‘GET’ pada Twitter API v2. Aplikasi ini bertujuan untuk mengakuisisi data user pada aplikasi Twitter untuk keperluan penyidikan forensik digital. Aplikasi ini dilengkapi dengan fitur perhitungan nilai hash MD5 dan SHA256 untuk data yang diakusisi. Library aplikasi dibangun dengan menggunakan bahasa pemrograman python. Getwit memiliki 3 modul utama yaitu function.py, model.py dan api_secret.py. Selain itu, terdapat pula module untuk menampilkan UI dari aplikasi dengan nama window.py. Getwit terhubung pada 32 endpoint yang ada di Twitter API v2. Sebelum menggunakan library tersebut, diperlukan proses generate key dan token, serta pengaturan user authentication di laman developer portal dari Twitter Developer. Seluruh endpoint yang ada, telah diuji coba menggunakan dua tipe autentikasi, yaitu OAuth1.0 User-contex dan OAuth2.0 App-Only dengan level akses ialah 'elevated'.
 
 ## Features
+## Get Data
 ### Tweet
 - Tweets lookup
 - Timelines
@@ -14,22 +15,27 @@ Getwit adalah program komputer yang terhubung pada endpoint dengan metode ‘GET
 - Quate tweets
 - Likes
 
-## Users
+### Users
 - User lookup
 - Follows
 - Block
 - Mutes
 
-## Spaces
+### Spaces
 - Spaces loolup
 - Search spaces
 
-## Lists
+### Lists
 - List lookup
 - List tweets lookup
 - List members
 - List follows
 - Pinned lists
+
+## Get Hash
+### Calculating Hash Value
+- MD5
+- SHA256
 
 ## How to Use
 
