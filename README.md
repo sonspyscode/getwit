@@ -52,7 +52,7 @@ git clone https://github.com/sonspyscode/getwit.git’
 
 install requirements
 ```sh
-pip install -r requirements.txt
+pip install 'nama library'
 ```
 
 ### Get API Key and Tokens
