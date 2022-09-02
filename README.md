@@ -44,9 +44,8 @@ atau
 git clone https://github.com/sonspyscode/getwit.git’
 ```
 ### Get API Key and Tokens
-Sebelum mengimplementasikan getwit, pastikan telah memiliki akun developer pada website Twitter Developer. Setelah itu, generate key dan token yang ada pada projects & apps. Key dan token tersebut disalin dan simpan pada file dengan nama api_secret.api. Perhatikan bahwa status dari aplikasi dan User Autentication Setting mempengaruhi jenis key dan token yang dapat di generate. Untuk detailnya silahkan akses https://developer.twitter.com/en/docs/apps/overview.
+Sebelum mengimplementasikan getwit, pastikan telah memiliki akun developer pada website Twitter Developer. Setelah itu, generate key dan token yang ada pada projects & apps. Key dan token tersebut disalin dan simpan pada file dengan nama api_secret.api. Perhatikan bahwa status dari aplikasi dan User Autentication Setting mempengaruhi jenis key dan token yang dapat di generate. Untuk detailnya silahkan akses https://developer.twitter.com/en/docs/apps/overview. Berikut tampilan dari file api_secret.py.
 ```sh
-//File api_secret.py
 ACCESS_TOKEN = 'YOUR ACCESS_TOKEN'
 ACCESS_TOKEN_SECRET = 'YOUR ACCESS_TOKEN_SECRET'
 CONSUMER_KEY = 'YOUR CONSUMER_KEY'
