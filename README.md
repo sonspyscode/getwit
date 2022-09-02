@@ -58,3 +58,4 @@ CONSUMER_KEY = 'YOUR CONSUMER_KEY'
 CONSUMER_SECRET = 'YOUR CONSUMER_SECRET'
 BEARER_TOKEN = 'YOUR BEARER_TOKEN'
 ```
+Dokumentasi aplikasi dapat dilihat di folder Doc di repository ini.
