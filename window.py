@@ -3,7 +3,7 @@ import hashlib
 from getpass import getuser
 from os import getcwd, name
 from tkinter import filedialog
-from getwit import function
+from getwit_pack import function
 import webbrowser
 
 window = Tk()
