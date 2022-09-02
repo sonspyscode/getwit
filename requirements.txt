@@ -1,0 +1,8 @@
+requests_outhlib
+json
+requests
+webbrowser
+hashlib
+tkinter
+os
+getpass
